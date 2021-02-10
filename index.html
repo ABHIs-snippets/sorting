@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: monospace;
+            color: #fff;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        section {
+            width: 100%;
+            position: relative;
+        }
+
+        .array_container {
+            margin: 0 auto;
+            height: 60px;
+            background-color: rgb(218, 218, 218);
+            width: 50%;
+            padding: 4px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .element {
+            width: 60px;
+            height: 100%;
+            background-color: #000;
+            font-size: 30px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .arrow {
+            font-size: 40px;
+            color: black;
+            position: absolute;
+            transition: transform .6s ease;
+            top: 60px;
+            transform: translateX(760px);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="array_container">
+            <div class="element">5</div>
+        </div>
+        <div class="arrow">^</div>
+    </section>
+</body>
+
+</html>
